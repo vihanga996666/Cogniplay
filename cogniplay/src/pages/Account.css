@@ -1,0 +1,291 @@
+/* src/pages/Accounts.css */
+
+.subaccountlist {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .subaccountitem {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .subaccountitem img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+    transition: transform 0.3s ease; 
+  }
+  
+  .subaccountitem .profileplaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+ 
+    transition: transform 0.3s ease;
+   
+  }
+  
+  
+  .subaccountitem.selected img {
+    transform: scale(1.2); 
+  
+    z-index: -1;
+  }
+  
+  .subaccountitem.selected .profileplaceholder {
+    transform: scale(1.2); 
+  }
+  
+  .profilepicturelarge {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .profileplaceholder.selected {
+    font-size: 18px;
+  }
+  
+
+  .selectSubAccounts
+  {
+    position: fixed;
+    right: 10px;
+    top: 20%;
+ background-color: #fff;
+padding: 10px;
+padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-right: 20px;
+    
+   
+  }
+
+  .accountPage
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+  .addsubaccountbutton {
+    background-color: #c02e2e;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .addsubaccountbutton:hover {
+    background-color: #822525;
+  }
+
+ /* src/pages/Account.css */
+
+.accountDetails {
+  background: #f9f9f9;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.accountDetails h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.accountDetails img.profilepicturelarge {
+  display: block;
+  margin: 0 auto 20px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+}
+
+.accountDetails form {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountDetails form div {
+  margin-bottom: 15px;
+}
+
+.accountDetails form label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.accountDetails form input[type="text"],
+.accountDetails form input[type="date"],
+.accountDetails form input[type="file"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.accountDetails form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.accountDetails form button:hover {
+  background-color: #0056b3;
+}
+
+  
+  /* src/pages/Account.css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+.accountPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectSubAccounts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.sub-account-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-account-item {
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.profile-picture-large {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile-placeholder {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 14px;
+}
+
+.selected {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.add-sub-account-button {
+  background-color: #d94a16;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.add-sub-account-button:hover {
+  background-color: #ab3b0e;
+}
+*/
+
+.accountBG
+{
+  position: fixed;
+  z-index: -10;
+  
+}
+
+
+.reauthenticateSection
+{
+  position: fixed;
+  margin: 50px;
+  bottom: 0;
+  left: 0;
+}
+
+.reoprtBtn
+{
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 10px;
+cursor: pointer;
+}
+

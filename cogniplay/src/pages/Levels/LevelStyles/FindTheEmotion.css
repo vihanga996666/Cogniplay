@@ -1,0 +1,82 @@
+.findtheemotion {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+}
+
+.objectsgridcontainerc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    width: min-content;
+    height: min-content;
+    margin-top: 50px;
+}
+
+.objectscontainerc {
+    display: grid;
+    grid-template-columns: repeat(3, 300px); /* 3 columns */
+    
+    gap: 50px; /* Space between items */
+  
+
+}
+
+.objectc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+    cursor: pointer;
+    
+}
+
+.objectc.selected {
+    background-color: #e0e0e0;
+    border-color: #00f; /* Blue border for selected */
+}
+
+
+.feedbackc {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.feedbackc.success {
+    color: green;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.feedbackc.error {
+    color: rgb(255, 47, 47);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Level5BG {
+    position: fixed;
+    top: 0;
+    z-index: -10;
+}
+
+.Level6BG{
+    position: fixed;
+    top: 0;
+    z-index: -10;
+}
+
+
+.QL6
+{
+    font-size: 50px;
+    margin-top: 70px;
+}

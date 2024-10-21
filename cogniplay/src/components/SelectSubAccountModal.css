@@ -1,0 +1,70 @@
+/* src/components/SelectSubAccountModal.css */
+
+.modaloverlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal1 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.modalcontent1 {
+  text-align: center;
+}
+
+.sub-account-list1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-account-item1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+.sub-account-item1:hover {
+  background-color: #f0f0f0;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.closebutton1 {
+  background-color: #e37114;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 20px;
+}
+
+.closebutton1:hover {
+  background-color: #c63612;
+}

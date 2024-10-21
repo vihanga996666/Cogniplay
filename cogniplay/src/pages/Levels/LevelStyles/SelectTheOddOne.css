@@ -1,0 +1,64 @@
+.findtheoddone {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-size: 40px;
+  }
+  
+  .objectsgridcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 100vh;
+  }
+  
+  .objectscontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 220px); /* 3 columns */
+    grid-template-rows: repeat(2, 220px); /* 2 rows */
+    gap: 40px; /* Space between items */
+  }
+  
+  .object {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 200px;
+    cursor: pointer;
+  
+    
+  
+  }
+  
+  .object.selected {
+    background-color: #e0e0e0;
+    border-color: #00f; /* Blue border for selected */
+  }
+  
+  .feedback {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .feedback.success {
+    color: green;
+  }
+  
+  .feedback.error {
+    color: red;
+  }
+  
+
+  .Level5BG
+  {
+    position: fixed;
+    top: 0;
+    z-index: -10;
+  }

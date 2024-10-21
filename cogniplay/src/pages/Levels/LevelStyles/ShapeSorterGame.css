@@ -1,0 +1,53 @@
+.shape-sorter-game {
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  
+  .shapes, .slots {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  
+  .shape, .slot {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .shape img, .slot img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .slot.circle {
+    border: 2px solid red;
+    border-radius: 50%;
+  }
+  
+  .slot.square {
+    border: 2px solid blue;
+  }
+  
+  .slot.triangle {
+    border: 2px solid green;
+  }
+  
+  .slot.star {
+    border: 2px solid yellow;
+  }
+  
+ 

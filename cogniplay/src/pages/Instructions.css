@@ -1,0 +1,26 @@
+.instructionsBG
+{
+    position: fixed;
+    top: 0;
+    z-index: -10;
+   
+}
+.insBox
+{
+    
+width: 40%;
+text-align: justify;
+font-size: 30px;
+background-color: white;
+padding: 30px;
+margin-top: 14%;
+border-radius: 20px;
+}
+
+.instructions{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+   
+}

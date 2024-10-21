@@ -1,0 +1,84 @@
+.mazegame {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.mazecontainer {
+  display: grid;
+  grid-template-columns: repeat(11, 40px);
+  grid-gap: 2px;
+  justify-content: center;
+
+  background-color: #fff;
+  padding: 20px;
+width: max-content;
+border-radius: 15px;
+}
+
+.mazecell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 4px; /* Optional: Gives a softer look to the maze cells */
+}
+
+.mazecell.wall {
+  background-color: #333;
+}
+
+.mazecell.character {
+  background-color: transparent; /* Remove background color to show the Butterfly component */
+}
+
+
+
+.maze-cell.end {
+  background-color: transparent; /* Remove background color to show the Flower component */
+}
+
+
+.controls {
+  margin-bottom: 30px;
+}
+
+.horizontalcontrols {
+  display: flex;
+  justify-content: center;
+}
+
+.controlbtn {
+  background-color: #EE446D;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 60px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  
+}
+
+.controlbtn:hover {
+  background-color: #981e3b;
+}
+
+
+.Level3BG
+{
+  position: fixed;
+  top: 0;
+  z-index: -10;
+}
+
+.QL3
+{
+  font-size: 40px;
+}
